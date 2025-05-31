@@ -1,0 +1,20 @@
+[
+    {
+        "codigo": "BB1",
+        "foto_url": "https:\/\/illuminatilab.com\/blog\/wp-content\/uploads\/2013\/10\/Breaking-Bad.jpg",
+        "tipo": "Serie",
+        "nombre": "breaking bad",
+        "descripcion": "la mejor serie del mundo la puta madre que serie mas dura",
+        "pais": "Estados Unidos",
+        "autor": "George Vincent Gilligan"
+    },
+    {
+        "codigo": "DX1",
+        "foto_url": "https:\/\/play-lh.googleusercontent.com\/SDUyDscHWTEDEiX3qe6JU-a_MLIjz0hmgCnNnzlwxStLu8KAyXLDfOzFkflgfCejJI0",
+        "tipo": "Serie",
+        "nombre": "Dexter",
+        "descripcion": "otra serie que ta ma buena que beber agua con sed",
+        "pais": "Estados Unidos",
+        "autor": "James Manos, Jr."
+    }
+]

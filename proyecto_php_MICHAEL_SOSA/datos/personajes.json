@@ -1,0 +1,35 @@
+[
+    {
+        "cedula": "00000001",
+        "foto_url": "https:\/\/static.wikia.nocookie.net\/doblaje\/images\/4\/47\/Dexter_Morgan.jpg\/revision\/latest?cb=20151114201024&path-prefix=es",
+        "nombre": "Dexter",
+        "apellido": "Dexter",
+        "fecha_nacimiento": "1990-01-01",
+        "sexo": "Masculino",
+        "habilidades": "Asesino, Psic\u00f3pata, Detective",
+        "comida_favorita": "Mata",
+        "codigo_obra": "DX1"
+    },
+    {
+        "cedula": "00000003",
+        "foto_url": "https:\/\/static.wikia.nocookie.net\/breakingbad\/images\/5\/52\/BB_S5A_Jesse_Pinkman.png\/revision\/latest?cb=20221026171345&path-prefix=es",
+        "nombre": "Jesse",
+        "apellido": "Pikman",
+        "fecha_nacimiento": "2000-01-01",
+        "sexo": "Masculino",
+        "habilidades": "Cocinero, Ayudante, NOSE",
+        "comida_favorita": "Monster",
+        "codigo_obra": "BB1"
+    },
+    {
+        "cedula": "asdasd",
+        "foto_url": "https:\/\/illuminatilab.com\/blog\/wp-content\/uploads\/2013\/10\/Breaking-Bad.jpg",
+        "nombre": "asdasasd",
+        "apellido": "asdadasd",
+        "fecha_nacimiento": "2025-05-01",
+        "sexo": "Femenino",
+        "habilidades": "Cocinar",
+        "comida_favorita": "Cocinar otra vez",
+        "codigo_obra": "BB1"
+    }
+]

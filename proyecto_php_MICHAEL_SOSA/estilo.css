@@ -1,0 +1,168 @@
+/* Estructura general */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #eaf4ff;
+    color: #00264d;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Formularios */
+form {
+    background-color: #ffffff;
+    border: 2px solid #99c2ff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="url"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #aaccee;
+    border-radius: 6px;
+    background-color: #f7fbff;
+}
+
+/* Botones */
+button,
+input[type="submit"],
+a.boton {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+a.boton:hover {
+    background-color: #cc0000;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #cce0ff;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f8ff;
+}
+
+/* Imágenes */
+img {
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+/* Avisos o errores */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+/* Enlace personalizado (opcional) */
+a.boton-detalle {
+    background-color: #0066cc;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a.boton-detalle:hover {
+    background-color: #cc0000;
+}
+
+/* Impresión */
+@media print {
+    a, button, .boton {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    form {
+        border: none;
+    }
+}
+
+.boton-fijo-index,
+.boton-fijo-ver-obras {
+    position: fixed;
+    top: 15px;
+    background-color: #0066cc; /* azul */
+    color: white;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.boton-fijo-index:hover,
+.boton-fijo-ver-obras:hover {
+    background-color: #cc0000; /* rojo al pasar el mouse */
+}
+
+/* Posiciones específicas para evitar que se monten */
+.boton-fijo-index {
+    right: 15px;
+}
+
+.boton-fijo-ver-obras {
+    right: 180px; /* separa 115px aprox del botón de "volver al inicio" */
+}
+
